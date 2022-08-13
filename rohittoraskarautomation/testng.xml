@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <listeners>-->
+<!--&lt;!&ndash;        <listener class-name="LearnRetryTestCase.LearnDemoExample" />&ndash;&gt;-->
+<!--        <listener class-name="LearnRetryTestCase.LearnITest" />-->
+<!--    </listeners>-->
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Rohit/IdeaProjects/rohittoraskarautomation">
+
+        <parameter name="browserName" value="chrome"/>
+<!--        <parameter name="name" value="Rohit Toraskar"/>-->
+<!--        <parameter name="city" value=" Karad "/>-->
+        <classes>
+            <class name="testng.LearnParamerterizedTestNg">
+            </class>
+        </classes>
+    </test>
+</suite>

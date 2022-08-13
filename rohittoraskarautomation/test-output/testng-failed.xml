@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Rohit/IdeaProjects/rohittoraskarautomation(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testng.LearnParamerterizedTestNg">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="parameterization"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testng.LearnParamerterizedTestNg -->
+    </classes>
+  </test> <!-- C:/Users/Rohit/IdeaProjects/rohittoraskarautomation(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
