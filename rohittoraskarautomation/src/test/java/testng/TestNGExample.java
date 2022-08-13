@@ -11,12 +11,13 @@ public void testCase1() {
     WebDriver driver = new ChromeDriver();
     driver.get("https://www.google.com/");
     driver.close();
+    System.out.println("Hello Rohit");
 }
     @Test
     public void testCase2() {
         System.setProperty("webdriver.chrome.driver", "D:/Rohit/Selenium/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.youtube.com/");
+        driver.get("https://www.facebook.com/");
         driver.close();
     }
     @Test
@@ -26,4 +27,5 @@ public void testCase1() {
         driver.get("https://mvnrepository.com/");
         driver.close();
     }
+    System.out.println("Hello World");
 }
