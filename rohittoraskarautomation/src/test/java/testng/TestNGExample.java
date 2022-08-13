@@ -30,4 +30,6 @@ public void testCase1() {
     System.out.println("Hello World");
   System.out.println(" Hello Mahesh, How are you ");
     System.out.println(" I'm fine ");
+     System.out.println(" Good Afternoon ");
+     System.out.println(" Good evening ");
 }
